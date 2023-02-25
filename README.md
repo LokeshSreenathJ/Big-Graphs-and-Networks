@@ -17,3 +17,7 @@
   Graph construction: Constructed weighted undirected network (edges weighted by distances) with each city forming a node, and an edge (i,j) exists between two cities if i) the distance between i and j is not greater than 100 miles, or if ii) there are no cities within 100 miles from a city i, add an edge from i to its nearest city.
   This dataset contains the distances between the cities of USA (The distance values used are not accurate though). Built dijkstra's algorithm from scatch using numpy library in python. The graph obtained from above constaints results in dis-connected graph. I have considered the case of dis-connectednesss of graph and developed the algorithm.
   Also using Floyd-Warshall Algorithm developed a model that gives us the distance matrix which contains the all-pairs shortest possible distances between all cities.
+
+6) Maximum Flow between source and destination:
+  Input dataset : http://snap.stanford.edu/data/soc-sign-bitcoin-otc.html
+  Graph Construction: Considered nodes from 1 to 2000 and non-negative edges. Built the Maximum flow algorithm that can find the maximum amount of flow between source and destination.
